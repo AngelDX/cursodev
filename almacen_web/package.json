@@ -1,0 +1,20 @@
+{
+  "name": "almacen_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "runserver"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "nodejs"
+  ],
+  "author": "AngelDX",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+<h1>Hola mundo</h1>
+<div ng-controller="ctll">
+	nombre: <input type="text" ng-model="nombre"><br>
+	<button ng-click="saludo()">Saludar</button><br>
+	<table>
+<tr ng-repeat="d in list | filter:nombre ">
+	<td>
+		{{ d.codigo}}
+	</td>
+	<td>
+		{{ d.nombre}}
+	</td>
+</tr>
+</table>
+</div>

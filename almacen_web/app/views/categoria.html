@@ -1,0 +1,29 @@
+<div ng-controller="categoriaController">
+
+codigo: <input type="text" ng-model="categoria.codigo"><br>
+nombre: <input type="text" ng-model="categoria.nombre"><br>
+
+
+<button type="submit" ng-click="save()">Save</button>
+
+<table>
+<tr ng-repeat="d in list | filter:nombre ">
+	<td>
+		{{ d.codigo}}
+	</td>
+	<td>
+		{{ d.nombre}}
+	</td>
+	<td>
+		<button ng-click="get(d)">edit</button>
+		
+	</td>
+	<td>
+		<button ng-click="delete(d)">x</button>
+		
+	</td>
+</tr>
+</table>
+
+<button ng-click="saludo()">Saludar</button>
+	</div>
